@@ -1,7 +1,4 @@
-# Robotics_arm_control
-# SPDX-FileCopyrightText: 2021 Kattni Rembor for Adafruit Industries
-# SPDX-License-Identifier: MIT
-"""CircuitPython analog pin value example"""
+
 import time
 import board
 import analogio
@@ -9,8 +6,6 @@ import analogio
 analog_pin = analogio.AnalogIn(board.A0)
 
 every_value = set()
-
-print('Welcome to PyCharm!')
 
 pot_pins = [analogio.AnalogIn(board.A0), analogio.AnalogIn(board.A1), analogio.AnalogIn(board.A2)]
 
